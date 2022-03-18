@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  animeganv2:
+    build: .
+    volumes:
+      - .:/training
+    command: tail -f /dev/null
